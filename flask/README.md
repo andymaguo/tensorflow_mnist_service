@@ -1,3 +1,5 @@
+thanks for https://github.com/sugyan/tensorflow-mnist
+
 # MNIST classification by TensorFlow #
 
 - [MNIST For ML Beginners](https://www.tensorflow.org/tutorials/mnist/beginners/)
