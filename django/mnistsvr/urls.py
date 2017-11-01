@@ -25,7 +25,7 @@ router = routers.DefaultRouter()
 
 urlpatterns = [
 #    url(r'^', include(router.urls)),
-    url(r'^mnist/$', views.mnist),
+    url(r'^api/mnist/$', views.mnist),
     url(r'^', views.main),
     url(r'^api-auth/', include('rest_framework.urls', namespace='rest_framework'))
 ]
