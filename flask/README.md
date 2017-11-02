@@ -19,6 +19,11 @@ thanks for https://github.com/sugyan/tensorflow-mnist
     $ pip install -r requirements.txt
     $ npm install
     $ gunicorn main:app --bind=0.0.0.0:8000 --log-file=-
+    
+    or 
+    $ export FLASK_APP=main.py
+    $ flask run --host=0.0.0.0
+    default on port 5000
 
 
 ### Deploy to Heroku ###
