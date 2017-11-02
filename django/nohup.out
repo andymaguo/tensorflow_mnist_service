@@ -1,0 +1,16 @@
+W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE3 instructions, but these are available on your machine and could speed up CPU computations.
+W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.1 instructions, but these are available on your machine and could speed up CPU computations.
+W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.2 instructions, but these are available on your machine and could speed up CPU computations.
+W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX instructions, but these are available on your machine and could speed up CPU computations.
+[02/Nov/2017 08:30:30] "POST /api/mnist HTTP/1.1" 201 448
+[02/Nov/2017 08:32:02] "POST /api/mnist HTTP/1.1" 201 451
+[02/Nov/2017 08:36:36] "GET /api/mnist/aaa HTTP/1.1" 200 2600
+[02/Nov/2017 08:36:36] "GET /static/js/main.js HTTP/1.1" 200 17970
+[02/Nov/2017 08:36:36] "GET /static/js/jquery.min.js HTTP/1.1" 200 85578
+[02/Nov/2017 08:36:36] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 121200
+[02/Nov/2017 08:36:36] "GET /static/css/bootstrap.min.css.map HTTP/1.1" 404 1798
+[02/Nov/2017 08:36:43] "GET / HTTP/1.1" 200 2600
+[02/Nov/2017 08:36:43] "GET /static/js/main.js HTTP/1.1" 200 17970
+[02/Nov/2017 08:36:43] "GET /static/js/jquery.min.js HTTP/1.1" 200 85578
+[02/Nov/2017 08:36:43] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 121200
+[02/Nov/2017 08:36:43] "GET /static/css/bootstrap.min.css.map HTTP/1.1" 404 1798
