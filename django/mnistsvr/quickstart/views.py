@@ -4,6 +4,7 @@ from __future__ import unicode_literals
 from django.shortcuts import render
 from django.http import HttpResponse
 from django.shortcuts import render_to_response
+from django.views.decorators.csrf import csrf_exempt
 
 import numpy as np
 import tensorflow as tf
@@ -38,12 +39,12 @@ def regression(input):
 def convolutional(input):
     return sess.run(y2, feed_dict={x: input, keep_prob: 1.0}).flatten().tolist()  
 
+@csrf_exempt
 def mnist(request):
     input = ((255 - np.array(request.json, dtype=np.uint8)) / 255.0).reshape(1, 784)
     output1 = regression(input)
     output2 = convolutional(input)
     return jsonify(results=[output1, output2])
-
 
 def main(request):
     return render_to_response('index.html')
